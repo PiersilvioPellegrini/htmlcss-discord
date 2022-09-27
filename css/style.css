@@ -1,0 +1,264 @@
+:root {
+    --color-dark-grey: #23272A;
+    --color-violet: rgb(126, 145, 208);
+    --btn-radius: 25px;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: rgb(58 99 216);
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+nav {
+
+
+    width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+footer {
+    background-color: black;
+}
+
+section {
+    padding: 40px 0;
+    border: 2px solid red;
+}
+
+body {
+    color: var(--color-dark-grey);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color:white;
+    margin-bottom: 20px;
+}
+
+p{
+    color:white;
+    margin-bottom:15px;
+
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.logo {
+    flex-basis: 20%;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.link {
+
+    flex-basis: 60%;
+
+    border: 2px solid black;
+
+}
+
+.link ul {
+
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+ul li {
+    padding: 10px 0;
+
+}
+
+.login {
+
+    flex-basis: 20%;
+    text-align: end;
+    border: 2px solid black;
+    padding-right: 10px;
+    padding-top: 10px;
+
+
+}
+
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+    
+    display: flex;
+    text-align: center;
+
+   
+}
+
+.container-small {
+    width: 700px;
+    color: yellow;
+    padding: 30px 0;
+    display: block; 
+}
+
+.btn {
+    border-radius: var(--btn-radius);
+    padding: 0.7rem 1.2rem;
+    border: none;
+    
+    
+}
+.btn_flex{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    column-gap: 20px;   
+}
+
+.btn-white {
+    background-color: white;
+    color: var(--color-dark-grey);
+}
+
+.btn-black {
+    background-color: var(--color-dark-grey);
+    color: white;
+}
+
+.btn-violet {
+    background-color: var(--color-violet);
+    color: white;
+}
+
+.btn-small {
+    font-size: .8rem;
+    padding: 0.3rem calc(var(--spacer) / 3);
+    font-weight: normal;
+}
+
+.btn-large {
+    font-size: 1.5rem;
+    padding: 0.7rem 1.3rem;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+
+}
+
+.col {
+    padding: 120px;
+    flex-basis: 40%;
+    background-color: blueviolet;
+    border: 2px solid red;
+
+}
+
+.col-2 {
+    flex-basis: 60%;
+    background-color: yellow;
+    border: 2px solid red;
+
+}
+
+.container_max {
+    width: 920px;
+    margin: 0 auto;
+    border: 2px solid orange;
+    background-color: green;
+
+    /* contenuto */
+    padding: 300px;
+}
+
+
+.bg-img {
+    background-image: url(../img/jumbo.png);
+
+}
+
+
+
+.bg-grey {
+    background-color: grey;
+}
+
+
+.footer1 {
+    width: 920px;
+    margin: 0 auto;
+    border: 2px solid orange;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* colonna grande blocco 1 footer */
+.colbig_footer {
+    padding: 200px 0;
+    flex-grow: 2;
+    background-color: bisque;
+    border: 2px solid white;
+
+
+}
+
+/* colonna normale blocco 1 footer */
+.col_footer {
+    padding: 200px 0;
+    flex-grow: 1;
+    background-color: brown;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+/* secondo blocco footer */
+.footer2 {
+    width: 920px;
+    margin: 0 auto;
+    border: 2px solid white;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+
+
+
+
+}
+
+/* bottoni footer2 */
+.logo_footer,
+.bottom {
+    background-color: pink;
+    border: 2px solid white;
+}
