@@ -14,7 +14,7 @@
 
 
 header {
-    background-color: rgb(58 99 216);
+    background-color: rgb(42	94	232	);
     width: 100%;
     padding-top: 20px;
 
@@ -37,7 +37,7 @@ footer {
 
 section {
     padding: 40px 0;
-    border: 2px solid red;
+    
 }
 
 body {
@@ -48,7 +48,7 @@ body {
 h1 {
     font-size: 3rem;
     color:white;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 p{
@@ -66,18 +66,21 @@ h3 {
 }
 
 .logo {
-    flex-basis: 20%;
-    border: 2px solid black;
-    padding-left: 10px;
-    padding-top: 10px;
+    flex-basis: 10%;
+    
+    padding: 10px;
+    text-align: center;
+    
+    
+    
 
 }
 
 .link {
 
-    flex-basis: 60%;
+    flex-basis: 80%;
 
-    border: 2px solid black;
+    
 
 }
 
@@ -86,21 +89,25 @@ h3 {
     display: flex;
     list-style: none;
     justify-content: center;
-    column-gap: 10px;
+    column-gap: 35px;
+    color: white;
+    font-size: 0.8rem;
+    padding-top:15px;
 }
 
 ul li {
-    padding: 10px 0;
+    
 
 }
 
 .login {
 
-    flex-basis: 20%;
+    flex-basis: 10%;
     text-align: end;
-    border: 2px solid black;
+    
     padding-right: 10px;
-    padding-top: 10px;
+    padding-top: 5px;
+    text-align: center;
 
 
 }
@@ -125,7 +132,7 @@ ul li {
 
 .btn {
     border-radius: var(--btn-radius);
-    padding: 0.7rem 1.2rem;
+    padding: 0.7rem 1rem;
     border: none;
     
     
@@ -153,9 +160,10 @@ ul li {
 }
 
 .btn-small {
-    font-size: .8rem;
-    padding: 0.3rem calc(var(--spacer) / 3);
-    font-weight: normal;
+    font-size: .2rem;
+    
+
+
 }
 
 .btn-large {
@@ -197,6 +205,8 @@ ul li {
 
 .bg-img {
     background-image: url(../img/jumbo.png);
+
+    background-size: cover;
 
 }
 
