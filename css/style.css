@@ -14,9 +14,10 @@
 
 
 header {
-    background-color: rgb(42	94	232	);
+    background-color: rgb(42 94 232);
     width: 100%;
     padding-top: 20px;
+
 
 }
 
@@ -37,7 +38,7 @@ footer {
 
 section {
     padding: 40px 0;
-    
+
 }
 
 body {
@@ -47,19 +48,21 @@ body {
 
 h1 {
     font-size: 3rem;
-    color:white;
+    color: white;
     margin-bottom: 40px;
 }
 
-p{
-    color:white;
-    margin-bottom:15px;
+p {
+
+    margin-bottom: 15px;
     font-size: 1.1rem;
 
 }
 
 h2 {
     font-size: 2.5rem;
+    text-align: start;
+    padding-bottom: 15px;
 }
 
 h3 {
@@ -68,12 +71,12 @@ h3 {
 
 .logo {
     flex-basis: 10%;
-    
+
     padding: 10px;
     text-align: center;
-    
-    
-    
+
+
+
 
 }
 
@@ -81,7 +84,7 @@ h3 {
 
     flex-basis: 80%;
 
-    
+
 
 }
 
@@ -93,7 +96,7 @@ h3 {
     column-gap: 35px;
     color: white;
     font-size: 0.8rem;
-    padding-top:15px;
+    padding-top: 15px;
 }
 
 
@@ -102,7 +105,7 @@ h3 {
 
     flex-basis: 10%;
     text-align: end;
-    
+
     padding-right: 10px;
     padding-top: 5px;
     text-align: center;
@@ -114,32 +117,33 @@ h3 {
 .container {
     width: 920px;
     margin: 70px auto;
-    
+
     display: flex;
     text-align: center;
 
-   
+
 }
 
 .container-small {
     width: 700px;
-    color: yellow;
-    padding-bottom: 30px ;
-    display: block; 
+    color: white;
+    padding-bottom: 30px;
+    display: block;
 }
 
 .btn {
     border-radius: var(--btn-radius);
     padding: 0.7rem 1rem;
     border: none;
-    
-    
+
+
 }
-.btn_flex{
+
+.btn_flex {
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    column-gap: 20px;   
+    column-gap: 20px;
 }
 
 .btn-white {
@@ -159,7 +163,7 @@ h3 {
 
 .btn-small {
     font-size: .2rem;
-    
+
 
 
 }
@@ -175,20 +179,22 @@ h3 {
 
 }
 
-.col {
-    padding: 120px;
+.col-text {
     flex-basis: 40%;
-    background-color: blueviolet;
-    border: 2px solid red;
+    color: var(--color-dark-grey);
+    text-align: start;
+    margin: 0 30px;
+    padding-top: 40px;
 
 }
 
-.col-2 {
+.col-img {
+
     flex-basis: 60%;
-    background-color: yellow;
-    border: 2px solid red;
+
 
 }
+
 
 .container_max {
     width: 920px;
@@ -196,8 +202,7 @@ h3 {
     border: 2px solid orange;
     background-color: green;
 
-    /* contenuto */
-    padding: 300px;
+
 }
 
 
